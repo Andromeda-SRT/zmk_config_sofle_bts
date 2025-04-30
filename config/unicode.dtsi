@@ -1,0 +1,11 @@
+/ {
+    unicode {
+        compatible = "zmk,behavior-unicode";
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        xh {
+            unicode = <0x0445 0x0425>; // х (маленькая), Х (заглавная)
+        };
+    };
+};
